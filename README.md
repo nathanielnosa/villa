@@ -6,3 +6,6 @@
 ## Home page (Top nav, Navbar, and Banner slider)
 ![image](https://github.com/user-attachments/assets/43233af0-2442-462d-8c73-5f037375053e)
 
+## Feature section
+![Uploading image.png…]()
+
