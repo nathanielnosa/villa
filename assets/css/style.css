@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* root colors */
+:root {
+  --main-color: #f25525;
+  --secondary-color: #fad8ce;
+  --light: #a9a9a9;
+  --black: #000;
+  --white: #fff;
+}
+/* utils */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* top nav */
+/* top nav */
+#topnav {
+  border-bottom: 1px solid var(--light);
+  height: 10vh;
+}
+#topnav .container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+#topnav .container .contact {
+}
+#topnav .container .contact span:nth-child(1) {
+  border-right: 1px solid var(--light);
+}
+#topnav .container .contact span {
+  color: var(--light);
+  padding: 0 0.8rem;
+}
+#topnav .container .contact span i {
+  color: var(--main-color);
+}
+#topnav .container .social span {
+  background: var(--light);
+  color: var(--white);
+  margin: 0 0.61rem;
+  padding: 0.41rem;
+  border-radius: 50%;
+}
+#topnav .container .social span:hover{
+    background: var(--main-color);
+    cursor: pointer;
+}
+/* #topnav .container .social span:nth-child(1):hover {
+  background: blue;
+  cursor: pointer;
+}
+#topnav .container .social span:nth-child(2):hover {
+  background: #3892c2;
+  cursor: pointer;
+}
+#topnav .container .social span:nth-child(3):hover {
+  background: #0e003f;
+  cursor: pointer;
+}
+#topnav .container .social span:nth-child(4):hover {
+  background: #dc2219;
+  cursor: pointer;
+} */
