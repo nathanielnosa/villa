@@ -59,9 +59,9 @@ body {
   padding: 0.41rem;
   border-radius: 50%;
 }
-#topnav .container .social span:hover{
-    background: var(--main-color);
-    cursor: pointer;
+#topnav .container .social span:hover {
+  background: var(--main-color);
+  cursor: pointer;
 }
 /* #topnav .container .social span:nth-child(1):hover {
   background: blue;
@@ -78,4 +78,5 @@ body {
 #topnav .container .social span:nth-child(4):hover {
   background: #dc2219;
   cursor: pointer;
+  s
 } */
