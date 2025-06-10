@@ -17,6 +17,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <!-- custom css -->
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
@@ -75,8 +81,47 @@
         </div>
       </div>
     </header>
+
+    <!-- slider or banner -->
+    <section id="banner">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/assets/img/slide1.webp" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/slide2.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/slide1.webp" alt="" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
   </body>
 
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    let swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+        delay: 4000,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
   <!-- custom js -->
   <script src="/assets/js/main.js"></script>
 </html>
