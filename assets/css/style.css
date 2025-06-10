@@ -63,20 +63,37 @@ body {
   background: var(--main-color);
   cursor: pointer;
 }
-/* #topnav .container .social span:nth-child(1):hover {
-  background: blue;
-  cursor: pointer;
+
+/* navbar */
+/* navbar */
+#navbar {
 }
-#topnav .container .social span:nth-child(2):hover {
-  background: #3892c2;
-  cursor: pointer;
+#navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
 }
-#topnav .container .social span:nth-child(3):hover {
-  background: #0e003f;
-  cursor: pointer;
+#navbar .container .logo {
+  font-size: 2rem;
+  font-weight: bold;
 }
-#topnav .container .social span:nth-child(4):hover {
-  background: #dc2219;
-  cursor: pointer;
-  s
-} */
+#navbar .container .links {
+}
+#navbar .container .links ul {
+  display: flex;
+  gap: 1.5rem;
+}
+#navbar .container .links ul li {
+  padding: 0.4rem;
+  display: flex;
+}
+#navbar .container .links ul li a {
+  color: var(--black);
+}
+#navbar .container .links ul li a.active {
+  color: var(--main-color);
+}
+#navbar .container .links ul li a:hover {
+  color: var(--main-color);
+}
